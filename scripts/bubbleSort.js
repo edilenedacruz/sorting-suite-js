@@ -1,5 +1,5 @@
 var input = ["d", "b", "a", "c"];
-var input2 = [ 5, 50, 25, 500, 15, 750]
+var input2 = [ 5, 50, 25, 500, 15, 750];
 
 function bubbleSort (input) {
   var swapped = true;
