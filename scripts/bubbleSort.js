@@ -1,6 +1,3 @@
-var input = ["d", "b", "a", "c"];
-var input2 = [ 5, 50, 25, 500, 15, 750];
-
 function bubbleSort (input) {
   var swapped = true;
   while(swapped) {
@@ -11,14 +8,10 @@ function bubbleSort (input) {
         input[i] = input[i+1];
         input[i+1] = temp;
         swapped = true;
-      }
-    }
-  }
-}
+      };
+    };
+  };
+  return input;
+};
 
-
-bubbleSort(input);
-console.log(input);
-
-bubbleSort(input2);
-console.log(input2);
+module.exports = bubbleSort

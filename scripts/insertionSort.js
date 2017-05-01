@@ -1,6 +1,3 @@
-var input = ["d", "b", "a", "c"];
-var input2 = [ 5, 50, 25, 500, 15, 750];
-
 function insertionSort(input) {
   for(var i = 1; i < input.length; i++) {
     var temp = input[i];
@@ -9,12 +6,7 @@ function insertionSort(input) {
     }
     input[j+1] = temp;
   }
-
   return input;
 }
 
-insertionSort(input);
-console.log(input);
-
-insertionSort(input2);
-console.log(input2);
+module.exports = insertionSort
